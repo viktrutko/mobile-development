@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editQuestion"
+
+        style="@style/GeneralStyles"
+
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:hint="@string/enter_question" />
+
+    <TextView
+        android:id="@+id/editAnswer"
+
+        style="@style/GeneralStyles"
+
+        android:layout_marginLeft="63dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/enter_answer"/>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:text="@string/button" />
+
+</LinearLayout>
