@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="enter_question">Enter your question</string>
+    <string name="button">OK</string>
+    <string name="enter_answer">Enter your answer</string>
+    <string name="exit">Exit</string>
+    <string name="dialog_question">Are you sure you want to go out?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+
+</resources>
